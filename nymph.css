@@ -1,0 +1,45 @@
+::selection {
+  background: indigo;
+  color: chartreuse;
+}
+
+:root {
+  background: chartreuse;
+  color: #111;
+}
+
+:root:target {
+  background: orchid;
+  color: #111;
+}
+
+:enabled {
+  border-color: indigo;
+  background: mediumspringgreen;
+  color: #111;
+}
+
+:any-link {
+  color: #111;
+  background: #bae;
+}
+
+:visited {
+  color: #222;
+  background: #bae;
+}
+
+:focus {
+  outline-color: #bae;
+}
+
+:any-link:hover {
+  color: indigo;
+  background: pink;
+  text-decoration-color: #e0e;
+}
+
+mark {
+  background: hotpink;
+  color: #090909;
+}
